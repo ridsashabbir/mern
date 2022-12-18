@@ -1,0 +1,36 @@
+1- Why do we create package.json file?
+If we are creating a project from scratch then we need to create a package.json file to hold all the important metadata and understand how to handle the project's dependencies. It's the package.json file that enables npm to start your project, run scripts, install dependencies, publish to the npm registry and many other usefull tasks.
+
+2- How do we create package.json file?
+Run the command "npm init -y" in the terminal of vscode.
+
+3- What are node modules?
+Node modules provide a way to re-use code in your node application. In some ways they are similar to a class in other languages like C# or java.
+
+4- How many node modules exist?
+Node.js has two module systems:
+	- CommonJs
+	- ECMAScript modules 
+
+5- What happens when we require a module in node js?
+Node js follows the CommonJS modulem system, and the built-in require() function is the easiest way to include modules that exist in separate files. The basic functionality of require() is that it reads a JavaScript file, executes the file, and then proceeds to return the exports object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
