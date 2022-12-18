@@ -6,6 +6,26 @@ app.get('/' , (req, res) => {
     res.send(`Hello world from the server`);
 })
 
+// run it on browser by typing localhost:3000/about
+app.get('/about' , (req, res) => {
+    res.send(`About page from the server`);
+})
+
+// run it on browser by typing localhost:3000/contact
+app.get('/contact' , (req, res) => {
+    res.send(`Contact page from the server`);
+})
+
+// run it on browser by typing localhost:3000/signin
+app.get('/signin' , (req, res) => {
+    res.send(`login page from the server`);
+})
+
+// run it on browser by typing localhost:3000/signup
+app.get('/signup' , (req, res) => {
+    res.send(`sign up page from the server`);
+})
+
 // that's how nodemon can make it easy to run your file. 
 // you have no need to run it again and again, 
 // nodemon will show the latest output itself as it's installed globally.
