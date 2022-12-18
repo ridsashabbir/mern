@@ -1,13 +1,24 @@
 const express = require('express');
 const app = express();
 
+
+// middleware
+const middleware = (req, res, next) => {
+    console.log('This is my middleware');
+    next(); // without calling this, it will take alot of time in loading
+}
+
+// call this function in about page
+// middleware();
+
+
 // this will show what is the name of your file that you want to get
 app.get('/' , (req, res) => {
     res.send(`Hello world from the server`);
 })
 
 // run it on browser by typing localhost:3000/about
-app.get('/about' , (req, res) => {
+app.get('/about' , middleware , (req, res) => {
     res.send(`About page from the server`);
 })
 
