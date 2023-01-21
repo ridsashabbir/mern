@@ -7,3 +7,18 @@
 - does not need a server.
 - must have .html extension.
 - index.html is the root(home page) of any web page.
+- tag syntax: <tagname>content</tagname>
+- self closing tag: <br />
+- <!DOCTYPE html>
+  <html>
+     <head> </head>
+     <body> </body>
+  </html>
+- DOCTYPE: The HTML document type declaration, also known as DOCTYPE , is the first line of 
+  code required in every HTML or XHTML document. The DOCTYPE declaration is an instruction 
+  to the web browser about what version of HTML the page is written in. This ensures that
+  the web page is parsed the same way by different web browsers.
+- head contains title to web page, links to atach external files, metadata etc.
+- body tag contains everythong that is gonna display on web browser like headings, paragraphs etc.
+- you can see your html code on browser using crtl+u.
+- comments: <!-- content  -->
