@@ -1,0 +1,9 @@
+- you have to be patient while learning web development.
+- we will be focusing on just html5 here.
+- html is not a programming language, it's just a markup language for creating web pages or documents
+- why html is not a programming language? because there is no loguc, no conditions, no actual programming, 
+  it is just used to display elements of the web page like headings, paragraphs etc. 
+- html is a building block of a website.
+- does not need a server.
+- must have .html extension.
+- index.html is the root(home page) of any web page.
