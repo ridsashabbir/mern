@@ -22,3 +22,5 @@
 - body tag contains everythong that is gonna display on web browser like headings, paragraphs etc.
 - you can see your html code on browser using crtl+u.
 - comments: <!-- content  -->
+- inline elements: <span>, <img>, <a>
+- block elements: <div>, <h1>, <p>, <form>
