@@ -24,3 +24,7 @@
 - comments: <!-- content  -->
 - inline elements: <span>, <img>, <a>
 - block elements: <div>, <h1>, <p>, <form>
+- strong tag: by default bold
+- em tag: by default italic
+- a tag: hyperlink
+- target="_blank" : it will open hyperlink in a new tab
