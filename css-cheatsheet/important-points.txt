@@ -16,3 +16,4 @@
 - external -> attach external css file with the help of link in header of html
 - inline css is given priority over internal and external css it means if same element is styled in internal and inline css, inline styling will be considered
 - link:css a shortcut to add css file in head tag
+- use !important if you want any property to take precedence while writing same styling for internal, external or inline css. e.g. if you are giving different colour tp same paragraph in internal, external and inline css, by default inline css' colour will be considered but if you add !important to internal or external css, that colour ill be preffered over internal css.
