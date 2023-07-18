@@ -14,3 +14,16 @@ p{
 .yellow{
     color: yellow;
 }
+
+h1{
+    color: blue;
+}
+h2{
+    /* color: blueviolet; */
+}
+h2, #heading2{
+    color: cornflowerblue;
+}
+h3, #heading3{
+    color: crimson;
+}
