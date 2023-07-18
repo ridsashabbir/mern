@@ -18,9 +18,9 @@ p{
 h1{
     color: blue;
 }
-h2{
-    /* color: blueviolet; */
-}
+/* h2{
+    color: blueviolet;
+} */
 h2, #heading2{
     color: cornflowerblue;
 }
@@ -35,4 +35,11 @@ h5{
     border-style: solid;
     border-radius: 25px;
     
+}
+
+.container{
+    background-color: wheat;
+    border: 3px solid purple;
+    padding: 40px;
+    margin: 50px;
 }
