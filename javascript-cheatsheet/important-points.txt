@@ -11,3 +11,4 @@
 - var: variables declared by var are available throughout the function in which they are declared.
 - const: if you never want a variable to change, const is the keyword to use.
 - reserved keywords cannot be used as vartriable name. 
+- with let, you can make block scoped variables. 
