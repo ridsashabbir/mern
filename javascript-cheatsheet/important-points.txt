@@ -18,3 +18,4 @@
 - non-primitive data types are derived data types. Objects are non-primitive.
 - null is an assigned value, it means nothing, it's an object. it is primitive
 - undefined means a variable has been declared but not defined yet
+- objects are just like dictionaries that use in python
