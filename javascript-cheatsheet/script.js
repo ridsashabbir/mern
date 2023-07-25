@@ -31,7 +31,20 @@ console.log(name2); // it will print ridsashabbir1 as this is the block scoped, 
 
 const name3 = "ridsashabbir3";
 {
-  const name3 = "Ridsa3"; // it will throw error, const will not let you change the value of variable
-  console, log(name3);
+  //   const name3 = "Ridsa3"; // it will throw error, const will not let you change the value of variable
+  //   console, log(name3);
 }
 console.log(name3);
+
+console.clear();
+
+// nn ss bb u
+let pa = null;
+let pb = 456;
+let pc = true;
+let pd = BigInt(345);
+let pe = "Ridsa";
+let pf = Symbol("I am a symbol");
+let pg = undefined;
+
+console.log(pa, pb, pc, pd, pe, pf, pg);

@@ -12,3 +12,7 @@
 - const: if you never want a variable to change, const is the keyword to use.
 - reserved keywords cannot be used as vartriable name. 
 - with let, you can make block scoped variables. 
+- javascript has different data types: primitive and non-primitive
+- primitive: set of basic data types from which all other data types are constructed. there are 7 primitive data types(NNSSBBU)
+- NNSSBBU: null, number, symbol, string, boolean, bigint, undefined 
+- non-primitive data types are derived data types. Objects are non-primitive.
