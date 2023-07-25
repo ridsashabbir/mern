@@ -53,7 +53,7 @@ let pg = undefined; // undefined means a variable has been declared but not defi
 console.log(pa, pb, pc, pd, pe, pf, pg);
 
 // typeof operator
-console.log(typeof pa);
+console.log(typeof pa); // it will print it as a object, it's a bug, originally it's not a object and is primitive
 console.log(typeof pb);
 console.log(typeof pc);
 console.log(typeof pd);

@@ -16,6 +16,8 @@
 - primitive: set of basic data types from which all other data types are constructed. there are 7 primitive data types(NNSSBBU)
 - NNSSBBU: null, number, symbol, string, boolean, bigint, undefined 
 - non-primitive data types are derived data types. Objects are non-primitive.
-- null is an assigned value, it means nothing, it's an object. it is primitive
+- null is an assigned value, it means nothing, it is primitive
 - undefined means a variable has been declared but not defined yet
 - objects are just like dictionaries that use in python
+- Q: if we consider null as a primitive data type in javascript, then why typeof operator gives us it's type as object? while object is non-primitive, then how null can be categorized as primitive when it's non-primitive and a object?
+- A: typeof will print null as a object, it's a bug, originally it's not a object and is primitive
