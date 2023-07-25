@@ -1,0 +1,6 @@
+- javscript is a general purpose scripting language that conforms to the ECMAScript.
+- ECMAScipt specification is a blueprint for creating a scripting language.
+- standard of javascript (ECMAScript) is also known as ES6.
+- javscript is used to create interactive web applications.
+- one can execute javascript in browser too.- one can execute javascript code on runtime by installing Node Js in your system.
+- another method to execute javascript is by inserting it inside the script tag of html document.
