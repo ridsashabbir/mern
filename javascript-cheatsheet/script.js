@@ -39,13 +39,13 @@ console.log(name3);
 console.clear();
 
 // nn ss bb u
-let pa = null;
+let pa = null; // null is an assigned value, it means nothing, it's an object
 let pb = 456;
 let pc = true;
-let pd = BigInt(345);
+let pd = BigInt(345); // you can also add it like BigInt(345) + BigInt(5) and answer will be 350
 let pe = "Ridsa";
 let pf = Symbol("I am a symbol");
-let pg = undefined;
+let pg = undefined; // undefined means a variable has been declared but not defined yet
 
 console.log(pa, pb, pc, pd, pe, pf, pg);
 

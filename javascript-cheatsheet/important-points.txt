@@ -16,3 +16,5 @@
 - primitive: set of basic data types from which all other data types are constructed. there are 7 primitive data types(NNSSBBU)
 - NNSSBBU: null, number, symbol, string, boolean, bigint, undefined 
 - non-primitive data types are derived data types. Objects are non-primitive.
+- null is an assigned value, it means nothing, it's an object. it is primitive
+- undefined means a variable has been declared but not defined yet
