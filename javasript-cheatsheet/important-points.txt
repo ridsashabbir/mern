@@ -4,3 +4,9 @@
 - javscript is used to create interactive web applications.
 - one can execute javascript in browser too.- one can execute javascript code on runtime by installing Node Js in your system.
 - another method to execute javascript is by inserting it inside the script tag of html document.
+- variable is like a container in which you can store different data types such as string, number, array.
+- javascript is a dynamically types language which means you can change the data types of variables on run time.
+- three types of variables: let, var, const
+- let: variables declared by let are only available inside the block where they are defines.
+- var: variables declared by var are available throughout the function in which they are declared.
+- const: if you never want a variable to change, const is the keyword to use. 
