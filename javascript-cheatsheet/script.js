@@ -48,3 +48,11 @@ let pf = Symbol("I am a symbol");
 let pg = undefined;
 
 console.log(pa, pb, pc, pd, pe, pf, pg);
+
+console.log(typeof pa);
+console.log(typeof pb);
+console.log(typeof pc);
+console.log(typeof pd);
+console.log(typeof pe);
+console.log(typeof pf);
+console.log(typeof pg);
