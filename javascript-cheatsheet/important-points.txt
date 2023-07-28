@@ -22,3 +22,6 @@
 - objects are just like dictionaries that use in python
 - Q: if we consider null as a primitive data type in javascript, then why typeof operator gives us it's type as object? while object is non-primitive, then how null can be categorized as primitive when it's non-primitive and a object?
 - A: typeof will print null as a object, it's a bug, originally it's not a object and is primitive
+- this keyword refers to the current context
+- it is used to access the properties and methods which are part of object
+- this keyword always refers to single object and used inside of the function
