@@ -1,2 +1,11 @@
 - react is a javascript based UI development library
-- react is used to build web applications quickly and efficiently with less code 
+- react is used to build web applications quickly and efficiently with less code
+- it is a frontend library
+- react is easy to learn only when you have foundation knowledge of javascript
+- in order to start working with react, you need to install node js in your system first
+- node js is used to run javascript application without browser 
+- if you already have installed node js, you can check it's version by "node --version" command
+- in order to update version, use command "npm install -g node"
+- add extension named "React Developer Tools" in chrome
+- install extension "Thunder client" in vs code, thunder client is alternative of postman 
+- install extension "ES7 React/Redux/GraphQL snippets" in vs code
