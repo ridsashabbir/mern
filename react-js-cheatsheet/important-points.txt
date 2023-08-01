@@ -10,3 +10,5 @@
 - install extension "Thunder client" in vs code, thunder client is alternative of postman 
 - install extension "ES7 React/Redux/GraphQL snippets" in vs code
 - you can also install auto rename tag extension in vs code too
+- go through the react js documentation from google
+- run command "npx create-react-app app-name" to create a react app
