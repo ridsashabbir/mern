@@ -22,8 +22,12 @@ const obj = {
   a: 2,
   b: 3,
   c: 4,
+  function: function myfunction(num) {
+    console.log("The number is: ", num);
+  },
 };
 console.log(obj);
 console.log(obj.a);
 console.log(obj.b);
 console.log(obj.c);
+console.log(obj.function(19));
