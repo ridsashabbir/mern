@@ -12,3 +12,10 @@
 - you can also install auto rename tag extension in vs code too
 - go through the react js documentation from google
 - run command "npx create-react-app app-name" to create a react app
+- use command "npm start" to run your website
+- react strict mode is a dveloper tool to provide warnings as feedback of error, with no effect on the result
+- JSX stands for javascript xml, it allows us to describe react's object tree in syntax of html
+- class is a reserved keyword in js, so you have to use className instead
+- in react, you have to follow camelcase format
+- in react, you have to only return one element, which is the first div from "App.js" file
+- you have to use JSX fragment while returning element from App.js which is <>...</>
