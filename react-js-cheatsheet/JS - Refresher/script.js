@@ -50,3 +50,9 @@ function myfunction(num) {
   console.log("The number is: ", this);
 }
 myfunction();
+
+// in arrow function
+let myfunction1 = (num) => {
+  console.log("The number is: ", this);
+};
+myfunction1();
