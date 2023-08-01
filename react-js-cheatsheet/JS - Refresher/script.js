@@ -10,3 +10,9 @@ console.log(b);
 var c = 34;
 var c = 4; // var don't give you error even if variable id redeclared
 console.log(c);
+
+// function in js
+function Hello() {
+  console.log("Hello");
+}
+Hello();
