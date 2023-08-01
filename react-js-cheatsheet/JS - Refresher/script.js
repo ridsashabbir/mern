@@ -16,3 +16,14 @@ function Hello() {
   console.log("Hello");
 }
 Hello();
+
+// object in js
+const obj = {
+  a: 2,
+  b: 3,
+  c: 4,
+};
+console.log(obj);
+console.log(obj.a);
+console.log(obj.b);
+console.log(obj.c);
