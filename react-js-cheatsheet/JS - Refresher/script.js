@@ -37,3 +37,10 @@ document.addEventListener("click", function click() {
   console.log("clicked");
   alert("it's clicked");
 });
+
+// array in js
+let arr = [45, 46, 47, 48];
+for (let i = 0; i < arr.length; i++) {
+  const element = arr[i];
+  console.log(element);
+}
