@@ -56,3 +56,9 @@ let myfunction1 = (num) => {
   console.log("The number is: ", this);
 };
 myfunction1();
+
+// call back function
+setTimeout(() => {
+  console.log("I am printed after 3 seconds");
+}, 3000);
+console.log("I am printed before 3 seconds");
