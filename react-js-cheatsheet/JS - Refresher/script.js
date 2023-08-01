@@ -31,3 +31,9 @@ console.log(obj.a);
 console.log(obj.b);
 console.log(obj.c);
 console.log(obj.function(19));
+
+// add event listener
+document.addEventListener("click", function click() {
+  console.log("clicked");
+  alert("it's clicked");
+});
