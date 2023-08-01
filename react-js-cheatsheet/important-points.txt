@@ -9,3 +9,4 @@
 - add extension named "React Developer Tools" in chrome
 - install extension "Thunder client" in vs code, thunder client is alternative of postman 
 - install extension "ES7 React/Redux/GraphQL snippets" in vs code
+- you can also install auto rename tag extension in vs code too
