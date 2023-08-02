@@ -20,3 +20,4 @@
 - in react, you have to only return one element, which is the first div from "App.js" file
 - you have to use JSX fragment while returning element from App.js which is <>...</>
 - remove everything written within "return" in "App.js" and write your own JSX
+- props stands for properties, they are read only components
