@@ -22,4 +22,5 @@
 - remove everything written within "return" in "App.js" and write your own JSX
 - props stands for properties, they are read only components
 - props give a way to pass data from one component to other components. It is similar to function arguments.
+- propTypes will let you fix type of props, like if you set the propType of title string, then you cannot add number as a title because we have set the title propType a string.
 
