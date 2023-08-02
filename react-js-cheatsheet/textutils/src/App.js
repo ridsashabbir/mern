@@ -4,8 +4,8 @@ import NavBar from "./Components/NavBar";
 function App() {
   return (
     <>
-      {/* <NavBar title="TextUtils" about="About TextUtils" /> */}
-      <NavBar />
+      <NavBar title="TextUtils" about="About TextUtils" />
+      {/* <NavBar /> */}
     </>
   );
 }
