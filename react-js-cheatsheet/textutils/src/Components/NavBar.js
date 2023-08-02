@@ -1,11 +1,11 @@
 import React from "react";
 
-export default function NavBar() {
+export default function NavBar(props) {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
-          TextUtils
+          {props.title}
         </a>
         <button
           className="navbar-toggler"
@@ -27,7 +27,7 @@ export default function NavBar() {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/">
-                About
+                {props.about}
               </a>
             </li>
           </ul>

@@ -21,3 +21,5 @@
 - you have to use JSX fragment while returning element from App.js which is <>...</>
 - remove everything written within "return" in "App.js" and write your own JSX
 - props stands for properties, they are read only components
+- props give a way to pass data from one component to other components. It is similar to function arguments.
+
