@@ -23,4 +23,8 @@
 - props stands for properties, they are read only components
 - props give a way to pass data from one component to other components. It is similar to function arguments.
 - propTypes will let you fix type of props, like if you set the propType of title string, then you cannot add number as a title because we have set the title propType a string.
-
+- react hooks are javascript functions that we can use to isolate reusable part rom functional component
+- react hooks simplifies the handling of form events
+- react hooks features to handle the local state component
+- use state is a react hook that allows you to add state to a functional component
+- use state returns array with two values, current state and a function to update it
