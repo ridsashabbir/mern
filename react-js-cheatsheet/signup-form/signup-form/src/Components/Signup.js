@@ -7,7 +7,7 @@ export default function Signup() {
         <h1>Signup Form</h1>
         <form>
           <div className="mb-3">
-            <label className="from-label">Full Name</label>
+            <label className="form-label">Full Name</label>
             <input type="text" name="fullName" />
           </div>
           <div className="mb-3">
@@ -15,15 +15,15 @@ export default function Signup() {
             <input type="email" name="email" />
           </div>
           <div className="mb-3">
-            <label className="from-label">Password</label>
+            <label className="form-label">Password</label>
             <input type="password" name="password" />
           </div>
           <div className="mb-3">
-            <label className="from-label">Confirm Password</label>
+            <label className="form-label">Confirm Password</label>
             <input type="password" name="confirmPassword" />
           </div>
           <div className="mb-3">
-            <label className="from-label">Age</label>
+            <label className="form-label">Age</label>
             <input type="text" name="age" />
           </div>
           <button type="submit" className="btn btn-primary">
