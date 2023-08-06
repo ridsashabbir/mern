@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
+.container{
+  border: 2px solid black;
+  align-items: center;
+  margin-left: 30%;
+  margin-right: 20%;
+  margin-top: 10%;
+  width: 30%;
+  padding: 30px;
+  border-radius: 15px;
+}
+.container h1{
+  text-align: center;
+ margin-top: 0;
+}
+.container .form-label{
+  font-weight: bold;
+}
+.container button{
+  align-items: center;
+  margin-left: 40%;
+}
+.container input{
+  margin-left: 10px;
+  position: relative;
+  margin-bottom: 40;
+  width: 100%;
+  border-radius: 5px;
+}
+.container input::placeholder{
+  padding-left: 15px;
+  font-size: 12px;
+}
