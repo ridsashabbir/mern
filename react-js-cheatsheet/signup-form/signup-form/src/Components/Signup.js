@@ -2,11 +2,11 @@ import React, { useState } from "react";
 
 export default function Signup() {
   const [formData, setFormData] = useState({
-    fullname: " ",
-    email: " ",
-    password: " ",
-    confirmpassword: " ",
-    age: " ",
+    fullname: "",
+    email: "",
+    password: "",
+    confirmpassword: "",
+    age: "",
   });
 
   const [errors, setErrors] = useState({});
@@ -20,9 +20,33 @@ export default function Signup() {
     event.preventDefault();
     const newErrors = {};
 
-    if (!(formData.password === formData.confirmpassword)) {
+    var regn = /^[a-z ,.'-]+$/i;
+    if (!regn.test(formData.fullname)) {
+      console.log("Name cannot contain numbers");
+      newErrors.fullname = "Name cannot contain numbers";
+    }
+
+    var rege =
+      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if (!rege.test(formData.email)) {
+      console.log("Please Enter a valid email address");
+      newErrors.email = "Please Enter a valid email address";
+    }
+
+    if (formData.password.length < 8) {
+      console.log("Password must b 8 characters long");
+      newErrors.password = "Password must b 8 characters long";
+    }
+
+    if (formData.confirmpassword !== formData.password) {
       console.log("Confirm password should be same as Password");
       newErrors.confirmpassword = "Confirm password should be same as Password";
+    }
+
+    var rega = /^\S[0-9]{0,3}$/;
+    if (!rega.test(formData.age)) {
+      console.log("Please Enter valid age");
+      newErrors.age = "Please Enter valid age";
     }
 
     if (Object.keys(newErrors).length === 0) {
@@ -38,11 +62,11 @@ export default function Signup() {
         <h1>Signup Form</h1>
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
-            {/* <label className="form-label">Full Name</label> */}
             <input
               type="text"
               name="fullname"
-              value={formData.fullname || ""}
+              //   value={formData.fullname || ''}
+              value={formData.fullname}
               placeholder="Full Name"
               onChange={handleInputChange}
               required
@@ -51,10 +75,10 @@ export default function Signup() {
             {/* {error.fullname} */}
           </div>
           <div className="mb-3">
-            {/* <label className="form-label">Email</label> */}
             <input
               type="email"
-              value={formData.email || ""}
+              value={formData.email}
+              //   value={formData.email || ""}
               name="email"
               placeholder="Email"
               onChange={handleInputChange}
@@ -63,12 +87,12 @@ export default function Signup() {
             {errors && <div className="errors">{errors.email}</div>}
           </div>
           <div className="mb-3">
-            {/* <label className="form-label">Password</label> */}
             <input
               type="password"
               name="password"
               placeholder="Password"
-              value={formData.password || ""}
+              value={formData.password}
+              //   value={formData.password || ""}
               onChange={handleInputChange}
               required
             />
@@ -76,11 +100,11 @@ export default function Signup() {
             {/* {error.password} */}
           </div>
           <div className="mb-3">
-            {/* <label className="form-label">Confirm Password</label> */}
             <input
               type="password"
               name="confirmpassword"
-              value={formData.confirmpassword || ""}
+              value={formData.confirmpassword}
+              //   value={formData.confirmpassword || ""}
               placeholder="Confirm Password"
               onChange={handleInputChange}
               required
@@ -89,17 +113,16 @@ export default function Signup() {
             {/* {error.confirmpassword} */}
           </div>
           <div className="mb-3">
-            {/* <label className="form-label">Age</label> */}
             <input
               type="text"
               name="age"
-              value={formData.age || ""}
+              value={formData.age}
+              //   value={formData.age || ""}
               placeholder="Age"
               onChange={handleInputChange}
               required
             />
             {errors && <div className="errors">{errors.age}</div>}
-            {/* {error.age} */}
           </div>
           <button type="submit" className="btn btn-primary">
             Submit
