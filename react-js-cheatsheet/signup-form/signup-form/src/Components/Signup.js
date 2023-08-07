@@ -13,9 +13,18 @@ export default function Signup() {
   const [successMsg, setSuccessMsg] = useState("");
 
   // this functionality will run on 'on change'
+  //   const handleInputChange = (event) => {
+  //     console.log("on change");
+  //     setFormData(event.target.value);
+  //   };
+
   const handleInputChange = (event) => {
     console.log("on change");
-    setFormData(event.target.value);
+    const { name, value } = event.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
   };
 
   // this will validate all the fields before submitting the from
@@ -79,7 +88,7 @@ export default function Signup() {
             <input
               type="text"
               name="fullname"
-              //   value={formData.fullname || ''}
+              //   value={formData.fullname || ""}
               value={formData.fullname}
               placeholder="Full Name"
               onChange={handleInputChange}
