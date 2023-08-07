@@ -72,6 +72,7 @@ export default function Signup() {
     if (Object.keys(newErrors).length === 0) {
       console.log("Signup successful!");
       setSuccessMsg("Signup successful!");
+      alert("Signup Successful!");
     }
 
     // here we will set this function and pass errors to it

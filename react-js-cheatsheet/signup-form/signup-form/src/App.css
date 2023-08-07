@@ -36,3 +36,12 @@
   padding-left: 15px;
   font-size: 12px;
 }
+.errors{
+  color: red;
+  font-weight: bold;
+}
+.success{
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}

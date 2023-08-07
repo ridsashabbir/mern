@@ -2,7 +2,7 @@ import Signup from "./Components/Signup";
 import "./App.css";
 
 function App() {
-  return <Signup></Signup>;
+  return <Signup />;
 }
 
 export default App;
