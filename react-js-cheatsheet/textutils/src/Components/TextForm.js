@@ -31,6 +31,7 @@ export default function TextForm(props) {
             onChange={handleOnChange}
             id="myBox"
             rows="7"
+            placeholder="Enter your text Here"
           ></textarea>
         </div>
         <button className="btn btn-primary mx-2" onClick={handleUpClick}>
