@@ -15,20 +15,27 @@ export default function TextForm(props) {
   };
 
   return (
-    <div>
-      <div className="mb-3">
-        <h1>{props.heading}</h1>
-        <textarea
-          className="form-control"
-          value={text}
-          onChange={handleOnChange}
-          id="myBox"
-          rows="10"
-        ></textarea>
+    <>
+      <div className="container">
+        <div className="mb-3">
+          <h1>{props.heading}</h1>
+          <textarea
+            className="form-control"
+            value={text}
+            onChange={handleOnChange}
+            id="myBox"
+            rows="10"
+          ></textarea>
+        </div>
+        <button className="btn btn-primary" onClick={handleUpClick}>
+          Convert to Uppercase
+        </button>
       </div>
-      <button className="btn btn-primary" onClick={handleUpClick}>
-        Convert to Uppercase
-      </button>
-    </div>
+
+      <div className="container my-3">
+        <h1>Your Text Summary</h1>
+        <p>345 Words and 4567 Characters</p>
+      </div>
+    </>
   );
 }
