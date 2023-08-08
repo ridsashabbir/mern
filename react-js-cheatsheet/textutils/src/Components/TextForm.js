@@ -24,7 +24,7 @@ export default function TextForm(props) {
             value={text}
             onChange={handleOnChange}
             id="myBox"
-            rows="10"
+            rows="7"
           ></textarea>
         </div>
         <button className="btn btn-primary" onClick={handleUpClick}>
@@ -33,11 +33,13 @@ export default function TextForm(props) {
       </div>
 
       <div className="container my-3">
-        <h1>Your Text Summary</h1>
+        <h2>Your Text Summary</h2>
         <p>
           {text.split(" ").length} Words, {text.length} Characters and{" "}
           {0.008 * text.split(" ").length} Minutes Read
         </p>
+        <h2>Preview</h2>
+        <p>{text}</p>
       </div>
     </>
   );
