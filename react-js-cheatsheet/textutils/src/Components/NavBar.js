@@ -35,7 +35,7 @@ export default function NavBar(props) {
             </li>
           </ul>
           <form className="d-flex" role="search">
-            <input
+            {/* <input
               className="form-control me-2"
               type="search"
               placeholder="Search"
@@ -43,7 +43,7 @@ export default function NavBar(props) {
             />
             <button className="btn btn-primary" type="submit">
               Search
-            </button>
+            </button> */}
           </form>
           <div
             className={`form-check form-switch text-${
