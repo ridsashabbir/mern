@@ -1,0 +1,10 @@
+- redux is a predictable state container designed to help you write javascript apps that behave consistently across client, server and native environment
+- it's mostly used as a state management tool with react and is easy to test
+- it can be used with any other javascript framework and library
+- redux maintains the state of application in a single place called redux store
+- react hooks features handle the local component state while Redux manages the global state and actions that can be dispatched
+- redux is a framework used on a frontend of web application
+- redux maked the state predictable
+- redux is for client state and and by default it is in memory only
+- react hooks are great but they cannot replace redux
+- it is not mandatory to use redux with react but redux was specifically designed to work well with react
