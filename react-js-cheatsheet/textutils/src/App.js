@@ -30,6 +30,7 @@ function App() {
       showAlert("Lightmode has been enabled", "success");
     }
   };
+
   return (
     <>
       <NavBar
