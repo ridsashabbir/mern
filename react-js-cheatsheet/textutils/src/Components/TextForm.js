@@ -5,24 +5,29 @@ export default function TextForm(props) {
 
   const handleUpClick = () => {
     console.log("upper case was clicked", text);
+    props.showAlert("Converted to Uppercase!", "success");
     let newText = text.toUpperCase();
+
     setText(newText);
   };
 
   const handleLowClick = () => {
     console.log("lower case was clicked", text);
+    props.showAlert("Converted to Lowercase!", "success");
     let newText = text.toLowerCase();
     setText(newText);
   };
 
   const handleClearClick = () => {
     console.log("clear button was clicked", text);
+    props.showAlert("Text has been cleared!", "danger");
     let newText = " ";
     setText(newText);
   };
 
   const handleCopyClick = () => {
     console.log("copy button was clicked", text);
+    props.showAlert("Text has been Copied!", "success");
     let ctext = document.getElementById("myBox");
     ctext.select();
     navigator.clipboard.writeText(ctext.value);
@@ -91,7 +96,7 @@ export default function TextForm(props) {
         <h2 style={{ color: props.mode === "light" ? "black" : "white" }}>
           Preview
         </h2>
-        <p>{text}</p>
+        <p>{text.length > 0 ? text : "Enter Something to Preview it"}</p>
       </div>
     </>
   );
