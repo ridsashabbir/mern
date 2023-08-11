@@ -1,12 +1,12 @@
 // import React from 'react'
 import Navbar from './components/Navbar'
-// import UserDetails from './components/UserDetails'
+import UserDetails from './components/UserDetails'
 
 function App() {
   return (
     <>
     <Navbar/>
-    {/* <UserDetails/> */}
+    <UserDetails/>
     </>
   )
 }
