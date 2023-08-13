@@ -1,7 +1,8 @@
 // import React from 'react'
 import DeleteAllUsers from './DeleteAllUsers'
 
-function UserDetails() {
+const UserDetails = () => {
+    const addNewUser = () => {}
     const myStyle = {
         marginLeft: '20%',
         fontSize: '2.0rem',
@@ -18,13 +19,14 @@ function UserDetails() {
         // marginTop: '10px'
     }
   return (
+    
     <>
     <div className="content">
         <div className="admin-portal">
             <div className="admin-subtitle" style={myStyle}>
                 List of User Details
             
-            <button className='btn add-btn' style={myStyleB}>Add New User</button>
+            <button className='btn add-btn' style={myStyleB} onClick={() => addNewUser()}>Add New User</button>
             </div>
         </div>
         <ul style={myStyle}>
