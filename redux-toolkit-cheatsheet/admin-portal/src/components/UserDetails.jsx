@@ -1,10 +1,16 @@
 // import React from 'react'
 import DeleteAllUsers from './DeleteAllUsers'
 import { fakeUserData } from '../api'
+import { useDispatch } from 'react-redux'
+import { addUser } from '../store/UserSlice'
 
 const UserDetails = () => {
+
+const dispatch = useDispatch(); 
+
     const addNewUser = (payload) => {
         console.log(payload)
+        dispatch(addUser(payload))
     }
     const myStyle = {
         marginLeft: '20%',
