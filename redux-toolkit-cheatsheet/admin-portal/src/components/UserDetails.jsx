@@ -1,8 +1,11 @@
 // import React from 'react'
 import DeleteAllUsers from './DeleteAllUsers'
+import { fakeUserData } from '../api'
 
 const UserDetails = () => {
-    const addNewUser = () => {}
+    const addNewUser = (payload) => {
+        console.log(payload)
+    }
     const myStyle = {
         marginLeft: '20%',
         fontSize: '2.0rem',
@@ -26,7 +29,7 @@ const UserDetails = () => {
             <div className="admin-subtitle" style={myStyle}>
                 List of User Details
             
-            <button className='btn add-btn' style={myStyleB} onClick={() => addNewUser()}>Add New User</button>
+            <button className='btn add-btn' style={myStyleB} onClick={() => addNewUser(fakeUserData())}>Add New User</button>
             </div>
         </div>
         <ul style={myStyle}>
