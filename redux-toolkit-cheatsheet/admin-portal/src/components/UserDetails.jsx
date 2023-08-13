@@ -27,7 +27,7 @@ function UserDetails() {
             <button className='btn add-btn' style={myStyleB}>Add New User</button>
             </div>
         </div>
-        <ul >
+        <ul style={myStyle}>
             <li>Hi</li>
             <li>Hii</li>
         </ul>
