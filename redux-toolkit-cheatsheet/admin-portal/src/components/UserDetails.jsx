@@ -29,6 +29,7 @@ const UserDetails = () => {
   };
   const myStyleU = {
     marginLeft: "20%",
+    padding: "5px",
   };
   return (
     <>
