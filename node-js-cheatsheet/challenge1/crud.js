@@ -8,3 +8,6 @@
 // - now delete both file and folder
 
 // CRUD : Create - Update - Read - Delete
+
+const fs = require("fs");
+fs.mkdirSync("Ridsa");
