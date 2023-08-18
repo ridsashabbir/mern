@@ -29,3 +29,6 @@ fs.renameSync("Ridsa/bio.txt", "Ridsa/mybio.txt");
 
 // delete file
 fs.unlinkSync("Ridsa/mybio.txt");
+
+// deleted folder
+fs.rmdirSync("Ridsa");
