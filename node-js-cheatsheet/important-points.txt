@@ -1,3 +1,12 @@
 - node js can be used on the backend as well as on the frontend
 - node js is neither a framework not a programming language
 - node js is a open source and cross platform runtime environment for executing javascript code outside the browser
+- install node js and check it's version along with npm
+- run your code using 'node index.js' command
+- repl in an easy to use cli tool which is used for processing node js expressions
+- repl is used to debug javascript code and useful for experimenting with node js code
+- REPL stands for Read - Eval - Print - Loop
+- Read - reads user's input, parse the input in javascript data structure and stores in memory
+- Eval - takes and evaluated the data structure 
+- Print - prints the result
+- Loop - loops the above command untill user presses crtl+c twice
