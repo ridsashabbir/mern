@@ -10,3 +10,4 @@
 - Eval - takes and evaluated the data structure 
 - Print - prints the result
 - Loop - loops the above command untill user presses crtl+c twice
+- write node in the terminal to open node repl
