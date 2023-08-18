@@ -1,0 +1,3 @@
+- node js can be used on the backend as well as on the frontend
+- node js is neither a framework not a programming language
+- node js is a open source and cross platform runtime environment for executing javascript code outside the browser
