@@ -15,4 +15,7 @@ const fs = require("fs");
 fs.mkdirSync("Ridsa");
 
 //created new file bio.txt
-fs.writeFileSync("bio.txt", "my name is ridsa");
+fs.writeFileSync("bio.txt", "My name is ridsa.");
+
+// added data at the end of existing data
+fs.appendFileSync("bio.txt", " This is appended data.");
