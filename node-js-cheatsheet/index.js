@@ -12,3 +12,7 @@ fs.writeFileSync("read.txt", "hello hello"); // it will give output as hello hel
 fs.writeFileSync("read.txt", "i am ridsa shabbir"); // it will override the previous output and show the recent msg only
 fs.appendFileSync("read.txt", "i am appending this data"); // it will append the data and won't override the previously present data
 fs.appendFileSync("read.txt", "\nthis will shift output in new line"); // this will shift output in new line and append it with previous output
+
+// read file
+const data = fs.readFileSync("read.txt");
+console.log(data); // it will print buffer data

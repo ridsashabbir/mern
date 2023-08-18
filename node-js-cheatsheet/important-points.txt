@@ -15,3 +15,6 @@
 - file system is one of the core modules of node js 
 - using writeFileSync, it will create the file provided in first argument, if the file exists then it won't create new file but override the data of that file
 - if you don't want to override the data of file, thenn use append method
+- node js includes additional data called buffer data 
+- buffer data is not available in browser javascript- buffer is mainly used to store binary data
+- while reading data from file or recieve a packet over network, you will always receive buffer data 
