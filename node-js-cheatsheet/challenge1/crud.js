@@ -15,11 +15,14 @@ const fs = require("fs");
 fs.mkdirSync("Ridsa");
 
 //created new file bio.txt
-fs.writeFileSync("bio.txt", "My name is ridsa.");
+fs.writeFileSync("Ridsa/bio.txt", "My name is ridsa.");
 
 // added data at the end of existing data
-fs.appendFileSync("bio.txt", " This is appended data.");
+fs.appendFileSync("Ridsa/bio.txt", " This is appended data.");
 
 // read data without getting buffer data
-const data = fs.readFileSync("bio.txt");
+const data = fs.readFileSync("Ridsa/bio.txt");
 console.log(data.toString());
+
+// rename file
+fs.renameSync("Ridsa/bio.txt", "Ridsa/mybio.txt");
