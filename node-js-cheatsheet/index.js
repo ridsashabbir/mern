@@ -8,6 +8,7 @@
 const fs = require("fs");
 
 // creating a new file
-fs.writeFileSync("read.txt", "i am ridsa shabbir");
-fs.writeFileSync("read.txt", "hello world, i am ridsa shabbir ");
-fs.appendFileSync("read.txt", "i am appending this data");
+fs.writeFileSync("read.txt", "hello hello"); // it will give output as hello hello
+fs.writeFileSync("read.txt", "i am ridsa shabbir"); // it will override the previous output and show the recent msg only
+fs.appendFileSync("read.txt", "i am appending this data"); // it will append the data and won't override the previously present data
+fs.appendFileSync("read.txt", "\nthis will shift output in new line"); // this will shift output in new line and append it with previous output
