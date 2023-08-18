@@ -26,3 +26,6 @@ console.log(data.toString());
 
 // rename file
 fs.renameSync("Ridsa/bio.txt", "Ridsa/mybio.txt");
+
+// delete file
+fs.unlinkSync("Ridsa/mybio.txt");
