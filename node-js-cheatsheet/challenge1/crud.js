@@ -10,4 +10,9 @@
 // CRUD : Create - Update - Read - Delete
 
 const fs = require("fs");
+
+// created new folder
 fs.mkdirSync("Ridsa");
+
+//created new file bio.txt
+fs.writeFileSync("bio.txt", "my name is ridsa");
