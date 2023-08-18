@@ -19,3 +19,7 @@ fs.writeFileSync("bio.txt", "My name is ridsa.");
 
 // added data at the end of existing data
 fs.appendFileSync("bio.txt", " This is appended data.");
+
+// read data without getting buffer data
+const data = fs.readFileSync("bio.txt");
+console.log(data.toString());
