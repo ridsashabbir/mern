@@ -11,3 +11,4 @@
 - Print - prints the result
 - Loop - loops the above command untill user presses crtl+c twice
 - write node in the terminal to open node repl
+- node js core modules are set ofr functions that you want to include in your application
