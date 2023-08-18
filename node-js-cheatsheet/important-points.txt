@@ -11,4 +11,7 @@
 - Print - prints the result
 - Loop - loops the above command untill user presses crtl+c twice
 - write node in the terminal to open node repl
-- node js core modules are set ofr functions that you want to include in your application
+- node js core modules are set of functions that you want to include in your application
+- file system is one of the core modules of node js 
+- using writeFileSync, it will create the file provided in first argument, if the file exists then it won't create new file but override the data of that file
+- if you don't want to override the data of file, thenn use append method
