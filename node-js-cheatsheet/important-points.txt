@@ -18,3 +18,4 @@
 - node js includes additional data called buffer data 
 - buffer data is not available in browser javascript- buffer is mainly used to store binary data
 - while reading data from file or recieve a packet over network, you will always receive buffer data 
+- while reading a file if you want to see the original data and not buffer data, use toString 

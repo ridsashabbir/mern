@@ -16,3 +16,5 @@ fs.appendFileSync("read.txt", "\nthis will shift output in new line"); // this w
 // read file
 const data = fs.readFileSync("read.txt");
 console.log(data); // it will print buffer data
+original_data = data.toString(); // if you want to see the original data and not buffer data, use toString
+console.log(original_data);
