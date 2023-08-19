@@ -15,3 +15,8 @@ const fs = require("fs");
 fs.mkdir("challenge2/Ridsa", (err) => {
   console.log("folder is created");
 });
+
+// created new file bio.txt
+fs.writeFile("challenge2/Ridsa/bio.txt", "My name is ridsa.", (err) => {
+  console.log("file is created");
+});
