@@ -37,3 +37,9 @@ fs.rename("challenge2/Ridsa/bio.txt", "challenge2/Ridsa/mybio.txt", (err) => {
   console.log("file is renamed");
   console.log(err);
 });
+
+// delete file
+fs.unlink("challenge2/Ridsa/mybio.txt", (err) => {
+  console.log("file is deleted");
+  console.log(err);
+});
