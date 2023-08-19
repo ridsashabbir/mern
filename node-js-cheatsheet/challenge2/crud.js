@@ -8,3 +8,10 @@
 // - now delete both file and folder
 
 // CRUD : Create - Update - Read - Delete
+
+const fs = require("fs");
+
+// created new folder
+fs.mkdir("challenge2/Ridsa", (err) => {
+  console.log("folder is created");
+});
