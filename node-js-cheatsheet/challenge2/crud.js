@@ -31,3 +31,9 @@ fs.readFile("challenge2/Ridsa/bio.txt", (err, data) => {
   console.log(data.toString());
   console.log(err);
 });
+
+// rename file
+fs.rename("challenge2/Ridsa/bio.txt", "challenge2/Ridsa/mybio.txt", (err) => {
+  console.log("file is renamed");
+  console.log(err);
+});
