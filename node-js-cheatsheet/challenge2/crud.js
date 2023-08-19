@@ -25,3 +25,9 @@ fs.writeFile("challenge2/Ridsa/bio.txt", "My name is ridsa.", (err) => {
 fs.appendFile("challenge2/Ridsa/bio.txt", " This is appended data.", (err) => {
   console.log("data is appended");
 });
+
+// read data without getting buffer data
+fs.readFile("challenge2/Ridsa/bio.txt", (err, data) => {
+  console.log(data.toString());
+  console.log(err);
+});
