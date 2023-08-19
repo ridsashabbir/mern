@@ -11,3 +11,9 @@ fs.appendFile("fsAsync/read.txt", " I am appended data", (err) => {
   console.log("data is appended");
   console.log(err);
 });
+
+// read data of the file
+fs.readFile("fsAsync/read.txt", (err, data) => {
+  console.log(data.toString());
+  console.log(err);
+});
