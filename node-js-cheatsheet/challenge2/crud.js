@@ -43,3 +43,9 @@ fs.unlink("challenge2/Ridsa/mybio.txt", (err) => {
   console.log("file is deleted");
   console.log(err);
 });
+
+// deleted folder
+fs.rmdir("challenge2/Ridsa", (err) => {
+  console.log("folder is deleted");
+  console.log(err);
+});
