@@ -20,3 +20,8 @@ fs.mkdir("challenge2/Ridsa", (err) => {
 fs.writeFile("challenge2/Ridsa/bio.txt", "My name is ridsa.", (err) => {
   console.log("file is created");
 });
+
+// added data at the end of existing data
+fs.appendFile("challenge2/Ridsa/bio.txt", " This is appended data.", (err) => {
+  console.log("data is appended");
+});
