@@ -21,3 +21,4 @@
 - while reading a file if you want to see the original data and not buffer data, use toString 
 - callback function is required in async but not in sync 
 - you will experince a queue like waiting list in sync but in asyn there is no queue or waiting list
+- you must use async over sync
