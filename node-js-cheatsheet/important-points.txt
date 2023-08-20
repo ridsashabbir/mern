@@ -22,3 +22,5 @@
 - callback function is required in async but not in sync 
 - you will experince a queue like waiting list in sync but in asyn there is no queue or waiting list
 - you must use async over sync
+- npm is a package manager for javascript
+- enter in the folder and run command 'npm init' in order to setup npm package in that particular folder
