@@ -24,3 +24,5 @@
 - you must use async over sync
 - npm is a package manager for javascript
 - enter in the folder and run command 'npm init' in order to setup npm package in that particular folder
+- nodemon helps with the speedy development of node js applications
+- nodemon is like 'live server' extension that automatically restarts and updates the changings in your application
