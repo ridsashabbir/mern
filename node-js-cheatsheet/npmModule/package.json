@@ -9,6 +9,7 @@
   "author": "Ridsa Shabbir",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^5.3.0"
+    "chalk": "^4.1.2",
+    "validator": "^13.11.0"
   }
 }
