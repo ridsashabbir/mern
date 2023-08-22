@@ -24,5 +24,7 @@ fs.writeFile("json1.json", jsonData, (err) => {
 // 3- read data of file
 fs.readFile("json1.json", (err, data) => {
   console.log(err);
+  const orgData = JSON.parse(data);
   console.log(data.toString());
+  console.log(orgData);
 });
