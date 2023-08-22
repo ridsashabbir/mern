@@ -1,6 +1,9 @@
 const http = require("http");
 const fs = require("fs");
 
+const data = fs.readFileSync(`${__dirname}/userAPI/userapi.json`);
+const objData = JSON.parse(data.toString());
+
 const server = http.createServer((req, res) => {
   //   console.log(req.url);
   if (req.url == "/") {
@@ -10,14 +13,7 @@ const server = http.createServer((req, res) => {
   } else if (req.url == "/contact") {
     res.end("Hello from contact");
   } else if (req.url == "/userapi") {
-    fs.readFile(`${__dirname}/userAPI/userapi.json`, (err, data) => {
-      console.log(err);
-      console.log(data.toString());
-      const objData = JSON.parse(data.toString());
-      console.log(objData);
-      // res.end(data.toString());
-      res.end(objData[0].name);
-    });
+    res.end(objData[0].name);
   } else {
     res.writeHead(404, { "Content-type": "text/html" });
     res.end("<h1> 404 error. Page does not exist </h1>");
