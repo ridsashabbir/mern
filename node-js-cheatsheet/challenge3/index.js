@@ -1,6 +1,6 @@
 // 1- convert object to JSON
 // 2- add json data into another file
-// 3- read file
+// 3- read data of file
 // 4- convert json to object'
 // 5- console.log
 
@@ -19,4 +19,10 @@ console.log(jsonData);
 fs.writeFile("json1.json", jsonData, (err) => {
   console.log("data added");
   console.log(err);
+});
+
+// 3- read data of file
+fs.readFile("json1.json", (err, data) => {
+  console.log(err);
+  console.log(data.toString());
 });
