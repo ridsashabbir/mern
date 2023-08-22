@@ -1,7 +1,7 @@
 // 1- convert object to JSON
 // 2- add json data into another file
 // 3- read data of file
-// 4- convert json to object'
+// 4- convert json to object
 // 5- console.log
 
 const fs = require("fs");
@@ -24,7 +24,12 @@ fs.writeFile("json1.json", jsonData, (err) => {
 // 3- read data of file
 fs.readFile("json1.json", (err, data) => {
   console.log(err);
-  const orgData = JSON.parse(data);
   console.log(data.toString());
+});
+
+// 4- convert json to object
+fs.readFile("json1.json", (err, data) => {
+  console.log(err);
+  const orgData = JSON.parse(data);
   console.log(orgData);
 });
