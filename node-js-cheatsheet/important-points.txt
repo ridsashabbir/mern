@@ -41,3 +41,6 @@
 - json is a lightweight format to store and transport data
 - json is often used when data is sent from server to web page
 - use method 'stringify' if you want to convert a object in JSON
+- API stands for Application Programming Interface
+- api is a software intermediary that allows two applications to talk to each other
+- 
