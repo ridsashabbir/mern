@@ -40,3 +40,4 @@
 - JSON stands for javascript object notation
 - json is a lightweight format to store and transport data
 - json is often used when data is sent from server to web page
+- use method 'stringify' if you want to convert a object in JSON
