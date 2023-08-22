@@ -1,0 +1,11 @@
+ [
+      {
+        "id": "1",
+        "type": "people",
+          "name": "John",
+          "age": 80,
+          "gender": "male"
+        
+      }
+    ]
+  
