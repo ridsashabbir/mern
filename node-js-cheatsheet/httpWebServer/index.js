@@ -1,6 +1,16 @@
 const http = require("http");
 const server = http.createServer((req, res) => {
-  console.log(req.url);
+  //   console.log(req.url);
+  if (req.url == "/") {
+    res.end("Hello from home");
+  } else if (req.url == "/about") {
+    res.end("Hello from about");
+  } else if (req.url == "/contact") {
+    res.end("Hello from contact");
+  } else {
+    res.writeHead(404, { "Content-type": "text/html" });
+    res.end("<h1> 404 error. Page does not exist </h1>");
+  }
 });
 
 // first argument would be the port number and second argument would be the local host server
