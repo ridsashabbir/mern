@@ -13,6 +13,7 @@ const server = http.createServer((req, res) => {
   } else if (req.url == "/contact") {
     res.end("Hello from contact");
   } else if (req.url == "/userapi") {
+    res.writeHead(200, { "Content-type": "application/json" });
     res.end(objData[0].name);
   } else {
     res.writeHead(404, { "Content-type": "text/html" });
