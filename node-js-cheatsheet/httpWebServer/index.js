@@ -1,6 +1,6 @@
 const http = require("http");
 const server = http.createServer((req, res) => {
-  res.end("Hello from the other side");
+  console.log(req.url);
 });
 
 // first argument would be the port number and second argument would be the local host server
