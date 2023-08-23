@@ -45,3 +45,10 @@
 - api is a software intermediary that allows two applications to talk to each other
 - node js has a built in modules called events where you can create, fire, listem for your own events
 - modules in node js: fs, os, path, http
+- streams are objects that let you read data from a source and let you write data to a destination in continuous function
+- streaming means listening to music or watching a video in real time instead of downloading
+- 4 types of streams: readable, writable, duplex, transform
+- readable: stream which is used for read operation
+- writable: stream which is used for write operation
+- duplex: stream which can be used for both read and write operation
+- transform: a type of duplex stream where output is computed based on input
