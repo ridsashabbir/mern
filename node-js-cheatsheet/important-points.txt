@@ -43,4 +43,5 @@
 - use method 'stringify' if you want to convert a object in JSON
 - API stands for Application Programming Interface
 - api is a software intermediary that allows two applications to talk to each other
-- 
+- node js has a built in modules called events where you can create, fire, listem for your own events
+- modules in node js: fs, os, path, http
