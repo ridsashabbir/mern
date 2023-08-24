@@ -24,7 +24,7 @@ const sendEmail = async (req, res) => {
 
   console.log("Message sent: %s", info.messageId);
 
-  res.send("i am sending email");
+  res.json(info);
 };
 
 module.exports = sendEmail;
