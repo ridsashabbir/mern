@@ -52,3 +52,4 @@
 - writable: stream which is used for write operation
 - duplex: stream which can be used for both read and write operation
 - transform: a type of duplex stream where output is computed based on input
+- the method 'stream.pipe()' is used to take a readable stream and connect it with a writable stream
